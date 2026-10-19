@@ -1,0 +1,6 @@
+Switch count b,rho_b,Penalty interval for lambda
+0,44,"[8.50, infinity)"
+2,27,"[8.00, 8.50]"
+4,11,"[0.50, 8.00]"
+6,10,"[0.50, 0.50]"
+8,9,"[0.00, 0.50]"

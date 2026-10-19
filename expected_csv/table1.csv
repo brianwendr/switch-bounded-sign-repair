@@ -1,0 +1,5 @@
+Method family,Input object,Typical output,Specific distinction here
+"String edit distance / Hamming mismatch [10,13,14]",two strings or fixed codewords,correction distance or nearest word,"repair to an alternating template, not pairwise string alignment"
+"Change-point and model selection [3,4,11,12]",numeric sequence with stochastic loss,estimated breakpoints or number of changes,"exact finite repair frontier, not an estimator"
+"Segment neighbourhood / interval partitioning [5,6]",general additive segment costs,best segmentation for chosen segment count,deterministic alternating signs give  frontier and penalty path
+This paper,single or aligned sign strings,"repair frontier, penalty path, stable template",ordered two-state repair with prefix-minimum dynamic programming

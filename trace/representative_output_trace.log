@@ -1,0 +1,23 @@
+frontier flip 0.05
+  mean_sd ['123.9 (3.2)', '68.7 (3.7)', '67.2 (2.9)', '14.5 (3.3)', '14.4 (3.2)', '13.0 (3.1)', '12.9 (3.1)']
+  runtime mean_sd 0.204 (0.027) max 0.329
+frontier flip 0.1
+  mean_sd ['126.5 (5.5)', '77.3 (5.5)', '75.0 (5.0)', '29.5 (5.7)', '29.4 (5.7)', '27.3 (5.4)', '27.2 (5.4)']
+  runtime mean_sd 0.202 (0.010) max 0.269
+frontier flip 0.2
+  mean_sd ['133.0 (7.4)', '97.1 (6.9)', '92.7 (6.0)', '60.0 (6.0)', '59.7 (5.9)', '56.6 (5.9)', '56.3 (5.8)']
+  runtime mean_sd 0.204 (0.003) max 0.215
+rhos [44, 41, 27, 25, 11, 11, 10, 10, 9]
+intervals [(0, 44, 8.5, inf), (2, 27, 8.0, 8.5), (4, 11, 0.5, 8.0), (6, 10, 0.5, 0.5), (8, 9, 0.0, 0.5)]
+Table 3 repeated penalty-path non-dominated count range 5 8
+minrun ell 1 meanval 25.7 meanB 8 overselect_rate 1.0 runtime 0.263 0.3
+minrun ell 5 meanval 28.5 meanB 4.9 overselect_rate 0.66 runtime 0.337 0.367
+minrun ell 10 meanval 29.8 meanB 3.08 overselect_rate 0.04 runtime 0.338 0.369
+minrun ell 20 meanval 29.9 meanB 3 overselect_rate 0.0 runtime 0.331 0.358
+minrun ell 30 meanval 29.9 meanB 3 overselect_rate 0.0 runtime 0.333 0.372
+scaling n 200 rho8 62 time 0.182 0.199
+scaling n 500 rho8 154 time 0.483 0.497
+scaling n 1000 rho8 358 time 1.089 1.439
+scaling n 2000 rho8 746 time 2.247 2.676
+scaling n 5000 rho8 1930 time 5.62 7.22
+exhaustive_check n<=10 B<=5 True
