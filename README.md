@@ -1,11 +1,5 @@
 # Switch-Bounded Sign Repair: Replication Package
 
-This repository contains the replication material for the manuscript:
-
-**Switch-Bounded Sign Repair on Finite Sequences: Frontier Structure, Penalty Paths, and Stable Dynamic Programming**
-
-The code reproduces the computational checks reported in Section 8 of the manuscript. No external datasets are required; all instances are generated synthetically using fixed random seeds.
-
 ## Contents
 
 ```text
